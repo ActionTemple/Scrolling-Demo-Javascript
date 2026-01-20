@@ -22,10 +22,8 @@ function scroll(){
             if (fullMessage.length == lengthOfMessage){
                 //console.clear();
                 //console.log(fullMessage);
-                // Find the element by its ID
+                // Find the element by its ID on index.html
                 const displayElement = document.getElementById('message-display');
-
-                // Set its content to your variable
                 displayElement.textContent = fullMessage;
                  
                 
@@ -37,7 +35,7 @@ function scroll(){
         fullMessage = ""   
         var firstLetter2 = msg.shift();
         msg.push(firstLetter2);
-        //console.clear();   
+          
            
 
 }
